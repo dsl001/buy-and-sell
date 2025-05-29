@@ -1,6 +1,8 @@
-# BuyAndSell
+# Buy-And-Sell
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12 and was generated while taking this LinkedIn Learning course: https://www.linkedin.com/learning/angular-creating-and-hosting-a-full-stack-site
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12 and was generated while taking this LinkedIn Learning course: https://www.linkedin.com/learning/angular-creating-and-hosting-a-full-stack-
+
+The backend service it uses is written here: https://github.com/dsl001/buy-and-sell-backend
 
 ## Development server
 
