@@ -1,4 +1,4 @@
-# Buy-And-Sell
+# Buy-And-Sell (Frontend)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12 and was generated while taking this LinkedIn Learning course: https://www.linkedin.com/learning/angular-creating-and-hosting-a-full-stack-
 
