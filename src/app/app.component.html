@@ -1,8 +1,13 @@
 <div id="page-wrap">
-    <div id="max-width-column">
+    <div id="max-width-column" *ngIf="auth.isSignedIn() && auth.isGoogleUser()">
         <app-nav-bar />
         <div id="content-wrap">
             <router-outlet />
         </div>
+        <button (click)="auth.signOut()">Sign Out</button>
+    </div>
+    <div id="max-width-column" *ngIf="auth.isSignedIn()">
+        <h1>Please sign in!</h1>
+        <button (click)="auth.signInWithGoogle()">Sign in</button>
     </div>
 </div>
